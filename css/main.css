@@ -1,0 +1,183 @@
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1 {
+    width: 20%;
+    background: blue;
+    height: 10em;
+    margin-right: 1em;
+    animation: linear 10s myani;
+}
+
+.box-2 {
+    width: 20%;
+    background: red;
+    height: 10em;
+    margin-right: 1em;
+    animation: linear 10s myani;
+}
+
+.box-3 {
+    width: 20%;
+    background: green;
+    height: 10em;
+    margin-right: 1em;
+    animation: linear 10s myani;
+}
+
+.box-4 {
+    width: 20%;
+    background: gold;
+    height: 10em;
+    margin-right: 1em;
+    animation: linear 10s myani;
+}
+
+ul {
+    list-style: none;
+}
+
+.second-container {
+
+    margin-top: 5em;
+}
+
+.orange-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.orange-1 {
+    flex: 2;
+    height: 5em;
+    background: orange;
+    margin-right: 1em;
+}
+
+.orange-2 {
+    flex: 1;
+    height: 5em;
+    background: orange;
+}
+
+.mixed-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.yellow-box {
+    flex: 1;
+    height: 15em;
+    background: yellow;
+}
+
+.two-purple {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1em;
+}
+
+.purple-1 {
+    background-color: purple;
+    height: 5em;
+    flex: 1;
+    margin-bottom: 1em;
+}
+
+.purple-2 {
+    background-color: purple;
+    height: 5em;
+    flex: 1;
+}
+
+.magenta-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.magenta-1 {
+    flex: 1;
+    height: 3em;
+    background: darkcyan;
+    margin-right: 1em;
+}
+
+.magenta-2 {
+    flex: 2;
+    height: 3em;
+    background: darkcyan;
+    margin-right: 1em;
+}
+
+.magenta-3 {
+    flex: 1;
+    height: 3em;
+    background: darkcyan;
+}
+
+.loading {
+    width: 140px;
+    height: 15px;
+    animation: linear 10s myanimation;
+}
+
+@keyframes myanimation {
+    /* from {
+        width: 100px;
+        height: 15px;
+        background: yellow;
+    }
+
+    to {
+        width: 900px;
+        height: 15px;
+        background: green;
+    } */
+
+    0% {
+        width: 100px;
+        height: 15px;
+        background: yellow;
+    }
+
+    25% {
+        width: 300px;
+        height: 15px;
+        background: darkblue;
+    }
+
+    50% {
+        width: 800px;
+        height: 15px;
+        background: rgb(0, 139, 39);
+    }
+
+    100% {
+        width: 900px;
+        height: 15px;
+        background: rgb(139, 0, 100);
+    }
+
+}
+
+@keyframes myani {
+
+    from {
+        transform: rotate(90deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
